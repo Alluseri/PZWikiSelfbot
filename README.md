@@ -4,8 +4,8 @@ A small selfbot script for https://pzwiki.net
 ## Usage
 Use in DevTools Console, any pzwiki page(use the main page for most stability)
 ```js
-fullEditCycle(/* page name, e.g. User:Alluseri/Testing or Metal_Crate */, /* full article body */, /* summary, leave "" for empty summary */, /* delay for legitimateness fullEditCycleCallback(/* page name, e.g. User:Alluseri/Testing or Metal_Crate */, /* callback, accepts 1 argument, which is the original article content, returns the modified article content */, /* summary, leave "" for empty summary */, /* delay for legitimateness 
-*/)
+fullEditCycle(/* page name, e.g. User:Alluseri/Testing or Metal_Crate */, /* full article body */, /* summary, leave "" for empty summary */, /* delay for legitimateness */)
+fullEditCycleCallback(/* page name, e.g. User:Alluseri/Testing or Metal_Crate */, /* callback, accepts 1 argument, which is the original article content, returns the modified article content */, /* summary, leave "" for empty summary */, /* delay for legitimateness */)
 ```
 Best docs ever.
 ### Example usage
