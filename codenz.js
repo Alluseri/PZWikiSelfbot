@@ -147,6 +147,7 @@ async function fullEditCycle(article, body, summary, timeTaken) {
 	} catch (ex) {
 		console.log("фрешхак не забустил");
 		console.log(ex);
+		throw ex;
 	}
 }
 
@@ -171,6 +172,7 @@ async function fullEditCycleCallback(article, callback, summary, timeTaken) {
 	} catch (ex) {
 		console.log("фрешхак не забустил");
 		console.log(ex);
+		throw ex;
 	}
 }
 
